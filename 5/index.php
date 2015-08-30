@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>kadai</title>
+<title>kadai2</title>
 </head>
 <body>
 <form action="get_confirm.php" method="get">
