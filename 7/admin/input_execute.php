@@ -16,24 +16,18 @@ $create_date = $_POST["create_date"];
 
 $pdo = new PDO("mysql:host=localhost;dbname=news_app;charset=utf8", "root", "");
 $sql = "INSERT INTO article (article_id, title, text, overview, author,delivery_date, create_date) VALUES (NULL, '" . $title . "', '" . $text . "', '" . $overview . "', '" . $author . "', sysdate(), sysdate()) ";
-var_dump($sql);
+//var_dump($sql);
 $stmt = $pdo->prepare($sql);
 $result = $stmt->execute();//sqlにデータ登録
-var_dump($result);
+//var_dump($result);
 if($result) {
 	echo "データが登録できました";
-	echo "<a href=select.php>一覧へ</a>";
+	echo "<a href=#>一覧へ</a>";
 } else {
 	echo "データの登録に失敗しました";
 }
 $pdo = null;
 ?>
-
-
-
-
-
-
 
 <p><a href="index.php">戻る</a></p>
 
