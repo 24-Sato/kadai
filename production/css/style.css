@@ -1,0 +1,241 @@
+
+body {
+	margin: 0;
+	-webkit-text-size-adjust: 100%;
+	font-size: 62.5%; /* font-size 1em = 10px */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+h1,
+.h1 {
+	font-size: 3.6em;
+}
+h2,
+.h2 {
+	font-size: 2.8em;
+}
+h3,
+.h3 {
+	font-size: 2.4em;
+}
+h4,
+.h4 {
+	font-size: 1.6em;
+}
+h5,
+.h5 {
+	font-size: 1.4em;
+}
+/*h6,
+.h6 {
+	font-size: 12px;
+}*/
+p {
+	margin: 0 0 10px;
+	font-size: 1.2em; /* 1.2em = 12px */
+}
+.lead {
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 1.4;
+}
+
+.container {
+	padding-right: 0.8em;
+	padding-left: 0.8em;
+	margin-right: auto;
+	margin-left: auto;
+	border-color: #aa00ff;
+}
+
+
+/*
+ * nav
+ */
+
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	display: -webkit-flexbox;
+}
+
+ul{
+	padding-left: 0;
+}
+
+.main-nav li{
+	list-style: none;
+}
+
+.main-nav a {
+	/*margin: 10px;*/
+	/*background: #60B99A;*/
+	display: block;
+	padding: 0.8em 0;
+	text-decoration: none;
+
+}
+.main-nav .logo {
+	color: #f06292;
+}
+
+/*
+ * top main img
+ */
+
+
+.intro{
+	text-align: center;
+}
+
+.intro img{
+	height: auto;
+	width: 100%;
+
+}
+
+section{
+	margin-bottom: 24px;
+}
+
+
+/*
+ * Footer
+ */
+footer{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*paddingやborder分を気にせずwidth/heightの数値を指定する*/
+.test {
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+/*長い文字列でも途中で改行させる*/
+.test{
+	word-break: break-all;
+}
+
+
+/*paddingやborderを幅に含める*/
+#box01 {
+	width:250px;
+	height:250px;
+	padding:10px;
+	background-color:#65ab31;
+	border:5px solid #618e34;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+
+/*フォーム要素のデフォルトスタイルをリセット*/
+*{
+	-webkit-appearance: none;
+}
+
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #999999;
+}
+
+/* Custom default button */
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+/*  height: 100%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../img/tokyo2.jpg");
+*/
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
