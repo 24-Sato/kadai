@@ -1,0 +1,325 @@
+/*
+ * Base structure
+ */
+
+
+body {
+	margin: 0;
+	-webkit-text-size-adjust: 100%;
+	font-size: 62.5%; /* font-size 1em = 10px */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+h1,
+.h1 {
+	font-size: 3.6em;
+}
+h2,
+.h2 {
+	font-size: 2.8em;
+}
+h3,
+.h3 {
+	font-size: 2.4em;
+}
+h4,
+.h4 {
+	font-size: 1.6em;
+}
+h5,
+.h5 {
+	font-size: 1.4em;
+}
+/*h6,
+.h6 {
+	font-size: 12px;
+}*/
+a{
+	display: block;
+	text-decoration: none;
+}
+p {
+	margin: 0 0 10px;
+	font-size: 1.2em; /* 1.2em = 12px */
+}
+
+ul{
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
+/* Padding for spacing */
+.container {
+	padding-right: 0.8em;
+	padding-left: 0.8em;
+	margin-right: auto;
+	margin-left: auto;
+	border-color: #aa00ff;
+}
+
+/*
+ * Header
+ */
+
+
+/*
+ * nav
+ */
+.nav {
+	border: solid 1px #eeeeee;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	display: -webkit-flexbox;
+	padding: 0.4em 0;
+
+}
+
+
+.main-nav a {
+	display: block;
+	font-size: 1.4em;
+	color:#333333;
+}
+
+
+
+
+
+
+/*
+ * top main img
+ */
+
+
+.intro div {
+	margin: 0.8em auto;
+	font-size: 1.4em;
+}
+
+.intro img{
+	/*height: auto;*/
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+
+
+
+section{
+	margin-bottom: 24px;
+}
+
+
+article{
+	position: relative;
+}
+
+.itemlist-tag{
+	overflow:hidden;
+}
+
+.itemlist-tag li {
+	margin: 0.4em 0.4em 0 0;
+	float:left;
+	white-space:nowrap;
+}
+
+
+.img-content{
+	position: absolute;
+	top: 0.8em;
+	left: 0.8em;
+}
+
+.text-content{
+	padding: 0.8em 0.8em 0.3em 13em;
+}
+
+.text-sub {
+	color: #bbbbbb;
+}
+
+
+.itemlist-title{
+	font-size: 1.6em;
+}
+
+article .text-content h2{
+	margin: 0px;
+}
+
+.itemdetail img{
+	width: 100%;
+}
+
+.itemdetail-title{
+	font-size: 1.4em;
+}
+
+.omi-list{
+	border: solid 1px #eeeeee;
+	padding: 0 0 .8em 0;
+}
+
+.shop-list{
+	border: solid 1px #eeeeee;
+}
+
+.shopinfo {
+	display: flex;
+	display: -webkit-flexbox;
+
+}
+
+.shopinfo dd{
+	margin: 0;
+}
+
+
+.form-item {
+	display: flex;
+	display: -webkit-flexbox;
+	margin: 8px 0;
+
+}
+
+.omi-report {
+	display: flex;
+	display: -webkit-flexbox;
+	margin: 8px 0;
+	justify-content: space-around;
+
+}
+
+
+.btn{
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+	display: block;
+	/*margin: 0.8em 1.2em;*/
+}
+
+
+.btn-primary {
+	background: #ffffff;
+	border: 1px solid #333333;
+	border-radius: 2.4em;
+	-moz-border-radius: 2.4em;
+	-webkit-border-radius: 2.4em;
+	width: 11em;
+	padding: 0.8em 0;
+}
+.tag-list {
+	display: flex;
+	display: -webkit-flexbox;
+}
+
+
+.tag {
+	background: #efefef;
+	border: 1px solid #dddddd;
+	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	-webkit-border-radius: 0.4em;
+	/*width: 10em;*/
+	padding: 0.4em 0.4em;
+}
+
+.select {
+	background: #ffffff;
+	border: 1px solid #333333;
+}
+
+
+
+
+/*
+ * Footer
+ */
+footer{
+	text-align: center;
+	margin: 1.6em 0;
+	color: #bbbbbb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*paddingやborder分を気にせずwidth/heightの数値を指定する*/
+.test {
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+/*長い文字列でも途中で改行させる*/
+.test{
+	word-break: break-all;
+}
+
+
+/*paddingやborderを幅に含める*/
+#box01 {
+	width:250px;
+	height:250px;
+	padding:10px;
+	background-color:#65ab31;
+	border:5px solid #618e34;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+
+/*フォーム要素のデフォルトスタイルをリセット*/
+*{
+	-webkit-appearance: none;
+}
+
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #333333;
+	text-decoration: none;
+}
