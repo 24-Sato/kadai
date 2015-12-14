@@ -93,18 +93,37 @@ li {
 	display: flex;
 	justify-content: space-between;
 	display: -webkit-flexbox;
-	padding: 0.4em 0;
-
+	padding: 0.2em 0;
 }
 
 
 .main-nav a {
 	display: block;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	color:#333333;
 }
 
+.main-nav .place {
+	font-size: 1.6em;
+}
 
+
+/*
+ * tab
+ */
+.tab {
+	display: flex;
+	display: -webkit-flexbox;
+	justify-content: space-between;
+	padding: 0.8em 6.2em ;
+	font-size: 1.4em;
+}
+
+
+.tab .active {
+	color: #f06292;
+	background-color: #ffff99;
+}
 
 
 
@@ -126,10 +145,6 @@ li {
 	width: 100%;
 }
 
-
-
-
-
 section{
 	margin-bottom: 24px;
 }
@@ -141,6 +156,7 @@ article{
 
 .itemlist-tag{
 	overflow:hidden;
+	font-size: 1.4em;
 }
 
 .itemlist-tag li {
@@ -148,7 +164,6 @@ article{
 	float:left;
 	white-space:nowrap;
 }
-
 
 .img-content{
 	position: absolute;
@@ -160,19 +175,6 @@ article{
 	padding: 0.8em 0.8em 0.3em 13em;
 }
 
-.text-sub {
-	color: #bbbbbb;
-}
-
-
-.itemlist-title{
-	font-size: 1.6em;
-}
-
-article .text-content h2{
-	margin: 0px;
-}
-
 .itemdetail img{
 	width: 100%;
 }
@@ -180,6 +182,30 @@ article .text-content h2{
 .itemdetail-title{
 	font-size: 1.4em;
 }
+
+.itemdetail p{
+	font-size: 1.6em;
+}
+
+.text-content p {
+	font-size: 1.4em;
+}
+
+
+.text-sub {
+	color: #bbbbbb;
+}
+
+
+.itemlist-title{
+	font-size: 2.0em;
+}
+
+article .text-content h2{
+	margin: 0px;
+}
+
+
 
 .omi-list{
 	border: solid 1px #eeeeee;
@@ -193,7 +219,6 @@ article .text-content h2{
 .shopinfo {
 	display: flex;
 	display: -webkit-flexbox;
-
 }
 
 .shopinfo dd{
