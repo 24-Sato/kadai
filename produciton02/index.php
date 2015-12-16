@@ -14,6 +14,7 @@ foreach($results as $row) {
 //	var_dump($row);
 	$view .= "<article class='omi-list'>";
 	$view .= "<a href=itemdetail.php?id=" . $row["id"] . ">";
+	$view .= "<img src='img/item-haruna-01.png' alt='' width='100%' height=''/>";
 	$view .= "<div class ='text-content'>";
 	$view .= "<div class='itemlist-title'>" . $row["title"] . "</div>";
 	$view .= "<ul>";
@@ -60,14 +61,23 @@ $pdo = null;
 <?php include("header.php"); ?>
 <div class="">
 	<ul class="tab">
-		<li class="active"><a href="#">会社用</a></li>
-		<li><a href="#">自分用</a></li>
+		<li class="is-active"><a href="#tab1">会社用</a></li>
+		<li><a href="#tab2">自分用</a></li>
 	</ul>
+</div>
+
+<div id="tab1">
+
+	<?php echo $view ?>
 </div>
 
 
 
-<div id="tab1">
+
+
+
+
+<div id="#">
 	<ul>
 		<li>
 			<article class="omi-list">
@@ -102,8 +112,6 @@ $pdo = null;
 	</ul>
 </div>
 
-<p>php</p>
-<?php echo $view ?>
 <?php include("footer.php"); ?>
 </body>
 </html>

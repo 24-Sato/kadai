@@ -19,16 +19,14 @@
 	<![endif]-->
 </head>
 <body>
+<?php include("header.php"); ?>
+
+
+
+
 <div>
-	<nav class="">
-		<div class="container">
-			<ul class="main-nav">
-				<li><a href="index.html" class="logo">おみちぇっく</a></li>
-				<li class="active"><a href="post.html">投稿</a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="container">
+
+	<!--<div class="container">
 		<div class="">ハッシュタグで絞り込む</div>
 		<ul class="itemlist-tag">
 			<li class="tag select"><a href="">#群馬県 	<small>36,344件</small></a></li>
@@ -36,7 +34,7 @@
 			<li class="tag"><a href="">#おみやげ 	<small>923件</small></a></li>
 			<li class="tag"><a href="">#梅饅頭 	<small>123件</small></a></li>
 		</ul>
-	</div>
+	</div>-->
 
 	<section class="container">
 		<form action="post-execute.php" method="post" enctype="multipart/form-data">
@@ -56,6 +54,12 @@
 			</div>
 			<div class="form-item">
 				<div class="form-item-title">ID：</div>
+				<div class="form-item-body">
+					<input type="text" name="user_id" size="40" value="" />
+				</div>
+			</div>
+			<div class="form-item">
+				<div class="form-item-title">tag：</div>
 				<div class="form-item-body">
 					<input type="text" name="user_id" size="40" value="" />
 				</div>
