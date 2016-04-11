@@ -1,0 +1,27 @@
+@charset "UTF-8";
+html {
+	font-size: 62.5%;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #151515 url("../img/bg.jpg") no-repeat fixed left bottom;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: Raleway "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.header {
+	padding: 170px 30px 80px;
+}
+
+.site-title-sub {
+	margin: 0 0 30px;
+	letter-spacing: 1px;
+	font-size: 2.2rem;
+}
+
