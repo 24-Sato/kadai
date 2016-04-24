@@ -2,8 +2,10 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>シングルページレイアウト</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family = Raleway:700,400">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 </head>
@@ -26,25 +28,23 @@
 		<p class="about-text">このサイトはサンプルです。書籍のサンプルをみて作ってます。</p>
 	<section class="works">
 		<h2 class="heading">WORKS</h2>
-		<div class="works-wrapper">
-			<div class="work-box">
+		<div class="works-wrapper ">
+			<div class="work-box tree">
 				<img class="work-image" src="img/tree.jpg" alt="制作事例1"/>
-				<div class="work-description-inner">
-					<p class="work-text">ひとつめの事例です</p>
-					<a class="button" href="#">READ MORE</a>
-				</div>
+				<p class="work-text">ひとつめの事例です</p>
+				<a class="button" href="#">READ MORE</a>
 			</div>
-			<div class="work-box">
+			<div class="work-box building">
 				<img class="work-image" src="img/building.jpg" alt="制作事例1"/>
 				<p class="work-text">ひとつめの事例です</p>
 				<a class="button" href="#">READ MORE</a>
 			</div>
-			<div class="work-box">
+			<div class="work-box lake">
 				<img class="work-image" src="img/lake.jpg" alt="制作事例1"/>
 				<p class="work-text">ひとつめの事例です</p>
 				<a class="button" href="#">READ MORE</a>
 			</div>
-			<div class="work-box">
+			<div class="work-box sky">
 				<img class="work-image" src="img/sky.jpg" alt="制作事例1"/>
 				<p class="work-text">ひとつめの事例です</p>
 				<a class="button" href="#">READ MORE</a>
@@ -52,13 +52,43 @@
 		</div>
 	</section>
 	<section class="skills">
-
+		<h2 class="heading">MY SKILLS</h2>
+		<div class="skills-wrapper">
+			<div class="skill-box">
+				<i class="skill-icon fa fa-lightbulb-o"></i>
+				<div class="skill-title">IDEA</div>
+				<p class="skill-text">
+				何かを考えることが好きです
+				</p>
+			</div>
+			<div class="skill-box">
+				<i class="skill-icon fa fa-paint-brush"></i>
+				<div class="skill-title">DESIGN</div>
+				<p class="skill-text">
+					見た目の綺麗さだけじゃなくて、<br>
+					使いやすさ
+				</p>
+			</div>
+			<div class="skill-box">
+				<i class="skill-icon fa fa-code"></i>
+				<div class="skill-title">CODING</div>
+				<p class="skill-text">
+					HTML/CSSコーディングも行います<br>
+				</p>
+			</div>
+		</div>
 	</section>
 	<section class="contact" id="contact">
-
+		<h2 class="heading">COTACT</h2>
+		<form class="contact-form" action="">
+			<input type="text" name="name" placeholder="NAME"/>
+			<textarea name="message" placeholder="MESSAGE"></textarea>
+			<input type="submit" value="SEND"/>
+		</form>
 	</section>
 	<footer class="footer">
-
+		@ sample site
 	</footer>
+	<script src=""></script>
 </body>
 </html>
