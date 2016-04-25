@@ -10,3 +10,37 @@ body {
 	text-align: center;
 	font-size: 1.4rem;
 }
+.header, .main, .sidemenu, .footer {
+	border: 1px solid #aaaaaa;
+}
+.header, .footer {
+	height: 100px;
+}
+.main, .sidemenu {
+	height: 500px;
+}
+
+.header {
+	width: 100%;
+}
+.wrapper {
+	width: 970px;
+	margin: 30px auto 40px;
+}
+.main {
+	display: block;
+	float: left;
+	width: 660px;
+}
+.sidemenu {
+	float: right;
+	width: 275px;
+}
+.footer {
+	width: 100%;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
