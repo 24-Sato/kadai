@@ -1,0 +1,12 @@
+@charset "UTF-8";
+html {
+	font-size: 62.5%;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.4rem;
+}
