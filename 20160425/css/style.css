@@ -78,4 +78,22 @@ a:link, a:visited, a:hover, a:active {
 	margin: 0 10px;
 }
 
+.global-nav .nav-item a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #60ff1c;
+	border-radius: 15px;
+	color: #60ff1c;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+}
 
+.global-nav .nav-item.active a,
+.global-nav .nav-item a:hover {
+	border: 1px solid #60ff1c;
+	color: #ffffff;
+	background-color: #66ff00;
+}
