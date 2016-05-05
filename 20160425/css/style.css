@@ -20,7 +20,7 @@ a:link, a:visited, a:hover, a:active {
 .header, .main, .sidemenu, .footer {
 	border: 1px solid #aaaaaa;
 }
-.header, .footer {
+.footer {
 	height: 100px;
 }
 .main, .sidemenu {
@@ -69,3 +69,13 @@ a:link, a:visited, a:hover, a:active {
 	display: block;
 	clear: both;
 }
+.global-nav {
+	margin-top: 15px;
+	text-align: center;
+}
+.global-nav .nav-item {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+
