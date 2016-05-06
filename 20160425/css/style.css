@@ -98,3 +98,54 @@ a:link, a:visited, a:hover, a:active {
 	color: #ffffff;
 	background-color: #66ff00;
 }
+.hidden	{
+	display: none;
+}
+
+.hot-topic {
+	display: block;
+	height: 300px;
+	margin-bottom: 30px;
+	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.15);
+	-webkit-transition: opacity 0.15s;-moz-transition: opacity 0.15s;-ms-transition: opacity 0.15s;-o-transition: opacity 0.15s;transition: opacity 0.15s;
+}
+.hot-topic:hover {
+	opacity: 0.85;
+}
+.hot-topic .image {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.hot-topic .content {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 105px 25px 0;
+	background-color: #60ff1c;
+	line-height: 1.6;
+}
+.hot-topic .title {
+	margin-bottom: 15px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 2.0rem;
+}
+.hot-topic .desc {
+	color: #ffffff;
+}
+.hot-topic .date {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 140px;
+	padding: 4px;
+	background-color: #ffffff;
+	color: #60ff1c;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 1.1rem;
+	line-height: 1;
+}
