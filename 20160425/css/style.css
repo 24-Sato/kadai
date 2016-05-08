@@ -149,3 +149,15 @@ a:link, a:visited, a:hover, a:active {
 	font-size: 1.1rem;
 	line-height: 1;
 }
+.heading {
+	padding: 10px 12px;
+	background: url("../img/bg-slash.gif");
+	letter-spacing: 1px;
+	font-size: 1.6rem;
+}
+.scroll-list {
+	max-height: 220px;
+	overflow-y: auto;
+	margin-bottom: 30px;
+	list-style-type: none;
+}
