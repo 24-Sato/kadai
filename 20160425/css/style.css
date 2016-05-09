@@ -23,7 +23,7 @@ a:link, a:visited, a:hover, a:active {
 .footer {
 	height: 100px;
 }
-.main, .sidemenu {
+.sidemenu {
 	height: 500px;
 }
 
@@ -160,4 +160,15 @@ a:link, a:visited, a:hover, a:active {
 	overflow-y: auto;
 	margin-bottom: 30px;
 	list-style-type: none;
+}
+.scroll-list .scroll-item a {
+	display: block;
+	padding: 10px 15px;
+	color: #333333;
+}
+.scroll-list .scroll-item:nth-of-type(even) a{
+	background: url("../img/bg-slash.gif");
+}
+.scroll-list .scroll-item a:hover {
+	background-color: #60ff1c;
 }
