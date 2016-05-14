@@ -269,3 +269,16 @@ a:link, a:visited, a:hover, a:active {
 	vertical-align: top;
 	line-height: 1.5;
 }
+.ranking .order {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 0 10px;
+	border: 10x solid #cccccc;
+	color: #aaaaaa;
+	vertical-align: 20px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.6;
+	-webkit-transform: roteta(45deg);-moz-transform: roteta(45deg);-ms-transform: roteta(45deg);-o-transform: roteta(45deg);transform: roteta(45deg);
+}
