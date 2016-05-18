@@ -337,3 +337,17 @@ a:link, a:visited, a:hover, a:active {
 .documents a:hover {
 	text-decoration: underline;
 }
+.search-box {
+	padding: 15px;
+	background-color: #cccccc;
+	font-size: 0;
+}
+.search-box > * {
+	font-size: 1.2rem;
+}
+.search-box .search-input {
+	width: 205px;
+	height: 26px;
+	padding: 0 10px;
+	border: none;
+}
